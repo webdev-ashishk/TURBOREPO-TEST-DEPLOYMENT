@@ -11,8 +11,8 @@ export default async function Home() {
   const data = await getData();
   console.log(data);
   return (
-    <div style={{ margin: "10px" }}>
-      <h1> @ home page </h1>
+    <div style={{ margin: "20px" }}>
+      <h1> This is FrontEnd of Nextjs-app @ </h1>
       <h1>List of all users!</h1>
       {data.map((items) => {
         return (
